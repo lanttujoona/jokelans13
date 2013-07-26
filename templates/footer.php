@@ -1,19 +1,8 @@
 <footer class="footer-of-page">
 	<div class="container">
 		<div class="row">
-			<div class="span4 downbox">
-				Lanttu ry</br>
-				Päiväkummuntie 4</br>
-				05400 Jokela</br>
-				<?php //echo date('Y'); ?> <?php //bloginfo('name'); ?>	
-			</div>
-			<div class="span4 downbox">
-				&nbsp;
-			</div>
-			<div class="span4 some-right">
-				<a href="http://www.facebook.com/groups/lanttury/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/picons46.png" alt="Facebook" /></a>
-				<a href="https://twitter.com/lanttury/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/picons43.png" alt="Twitter" /></a>
-				<a href="http://www.youtube.com/user/TourLANchannel/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/picons58.png" alt="Youtube" /></a>
+			<div class="span12">
+                                &copy; Copyright 2003-2013 <a href="http://www.lanttu.org" target="_blank">Lanttu ry</a> - Voima verkkopelitapahtumien takana!
 			</div>
 		</div>
 	</div>

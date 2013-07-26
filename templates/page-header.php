@@ -1,5 +1,8 @@
-<div class="page-header">
-  <!--<h1>
-    <?php // echo roots_title(); ?>
-  </h1> -->
-</div>
+<?php 
+	if(!is_home())
+	{
+		echo '<div class="page-header"><h1>';
+		echo roots_title(); 
+		echo '</h1><hr /></div>';
+	}
+?>	

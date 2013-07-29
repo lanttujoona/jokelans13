@@ -8,8 +8,13 @@
       <?php the_content(); ?>
     </div>
     <footer>
+        <hr />
       <?php wp_link_pages(array('before' => '<nav id="page-nav"><p>' . __('Pages:', 'roots'), 'after' => '</p></nav>')); ?>
-      <?php the_tags('<ul class="entry-tags"><li>','</li><li>','</li></ul>'); ?>
+      <?php 
+        //the_tags('<ul class="entry-tags"><li>','</li><li>','</li></ul>'); 
+        the_tags('<div class="entry-tags">T&auml;git:&nbsp;&nbsp;<span>','</span><span>','</span></div>'); 
+      
+      ?>
     </footer>
     <?php //comments_template('/templates/comments.php'); ?>
   </article>

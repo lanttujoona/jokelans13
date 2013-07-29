@@ -45,18 +45,20 @@ function roots_display_sidebar() {
 
 // #main CSS classes
 function roots_main_class() {
-  /*if (roots_display_sidebar()) {
-    $class = 'span8';
+  if (roots_display_sidebar()) {
+    $class = 'span9';
   } else {
     $class = 'span12';
-  }*/
-	$class = 'span12';
+  }
+  
+    
+  //$class = 'span12';
   return $class;
 }
 
 // #sidebar CSS classes
 function roots_sidebar_class() {
-  return 'span4';
+  return 'span3';
 }
 
 // Configuration values

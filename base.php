@@ -31,13 +31,18 @@
             <!-- blog -->
             <div class="blog-container <?php echo roots_main_class(); ?>">
                 <?php include roots_template_path(); ?>
-              <div class="spacer">
-              </div>
             </div>
             <!-- /blog -->
+            
+            <?php if (roots_display_sidebar()) : ?>
+                <aside class="sidebar <?php echo roots_sidebar_class(); ?>" role="complementary">            
+                    <?php get_template_part('templates/sidebar'); ?>
+                </aside><!-- /.sidebar -->
+            <?php endif; ?>
+            
             <!-- orange-placeholder -->
-            <div class="span3 orange-span hidden-phone">
-            </div>
+            <!--<div class="span3 orange-span hidden-phone">
+            </div>-->
           </div>
           <!-- /main-content-row -->
         </div>

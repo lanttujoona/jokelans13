@@ -252,14 +252,29 @@ hr {
 .post_metadata {
     font-size: 10px;
     line-height: 10px;
-    color: #363533;
-	padding-left: 5px;
+    /*color: #363533;*/
+    padding-left: 5px;
 }
 
 .post_metadata span {
     margin-top: -2px;
     padding: 2px;
     margin-bottom: 2px;
+}
+
+.entry-tags{
+    margin-top: 14px;
+}
+
+.entry-tags span{
+    padding: 5px;
+    background-color: #B03216;
+    margin-right: 7px;
+}
+
+.entry-tags a{
+    color: #DFCBA2;
+    text-decoration: none;
 }
 
 
@@ -276,6 +291,10 @@ hr {
    ========================================================================== */
 
 .sidebar { }
+
+.widget-inner{
+    margin-top: 15px;
+}
 
 
 

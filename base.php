@@ -6,7 +6,7 @@
       <![endif]-->
       
     <div class="header-bg-container collapse">
-        <img src="/wp-content/themes/jokelans13/assets/img/header.png"></img>
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/header.png"></img>
     </div>   
       
       

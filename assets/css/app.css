@@ -60,11 +60,16 @@ hr {
 
 
 .header-bg-container {
-    background-image: url('../img/header.jpg');
+    /*
+    background-image: url('../img/header.png');
     background-repeat: no-repeat;
     background-position: top center;
-    background-color: #010101;
     height: 400px;
+    */
+    height: auto;
+    text-align: center;
+    background-color: #010101;
+    
 }
 .navbar-inner {
     background: none;
@@ -73,7 +78,6 @@ hr {
 }
 
 .navbar-container {
-    width: 615px;
     height: 40px;
     margin-left: auto;
     margin-right: auto;

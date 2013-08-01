@@ -6,6 +6,7 @@
       <![endif]-->
       
     <div class="header-bg-container collapse">
+        <img src="/wp-content/themes/jokelans13/assets/img/header.png"></img>
     </div>   
       
       

@@ -10,7 +10,7 @@
 <!-- blog-item -->
       <div class="row blog-item" id="post-<?php the_ID(); ?>">
         <div class="span4">
-          <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+          <h4><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>
           <div class="post_date"><?php get_template_part('templates/entry-meta'); ?></div>
           <?php the_post_thumbnail(); ?> 
           <p><?php the_content(); ?></p>

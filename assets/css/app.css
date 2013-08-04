@@ -168,7 +168,7 @@ hr {
     border: 1px solid #696D72;
     border-color: rgba(0, 0, 0, 0.2);
     box-shadow: 0 1px 1px 0 rgba(255,255,255,0.1),inset 0 1px 5px rgba(0,0,0,0.1);
-    min-height: 410px;    
+    min-height: 500px;    
 }
 
 .blog-item .span4 {
@@ -184,6 +184,10 @@ hr {
     padding-right: 10px;
     
     text-decoration: none;
+}
+
+.blog-item h4 {
+    padding-left: 7px;
 }
 
 .blog-item hr {

@@ -1,9 +1,12 @@
 <?php get_template_part('templates/head'); ?>
 <body <?php body_class(); ?>>
-  <div class="page-container">
-      <!--[if lt IE 7]>
+    
+    <?php get_template_part('templates/facebook-embed'); ?>
+    
+    <div class="page-container">
+    <!--[if lt IE 7]>
         <p class="chromeframe">Käytät <strong>vanhentunutta</strong> selainta. Ole hyvä ja <a href="http://browsehappy.com/">päivitä selaimesi</a> tai <a href="http://www.google.com/chromeframe/?redirect=true">käytä Google Chrome Frame</a> parantaaksesi käyttökokemuksiasi.</p>
-      <![endif]-->
+    <![endif]-->
       
     <div class="header-bg-container collapse">
         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/header.png"></img>

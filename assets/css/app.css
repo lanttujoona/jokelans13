@@ -285,6 +285,26 @@ hr {
     text-decoration: none;
 }
 
+.smallinfo
+{
+    float: left; 
+    position: relative; 
+    top: -60px; 
+    background-color: rgba(0,0,0,0.6);
+    width: 100%; 
+    height: 30px; 
+    padding-top: 10px;
+    font-weight: bold;
+    margin-bottom: -37px;
+}
+
+.smallinfo span {
+    padding-left: 10px;
+}
+
+.td_left{
+    padding-right: 15px;
+}
 
 /* ==========================================================================
    Primary Content
